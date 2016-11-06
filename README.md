@@ -182,7 +182,7 @@ A block of text that isn't a question and requires no answer.
 field :statement do
   say "what you want to say"
   button_text "Okay, next question"
-  show_quotation_marks
+  no_quotation_marks
 end
 ```
 
@@ -296,7 +296,7 @@ field :rating do
   ask "How much did you enjoy Jonny Wiseau's seminal hit, The Room?"
 
   steps 10
-  shape :thumbs_up
+  shape "skull"
 end
 
 ```
