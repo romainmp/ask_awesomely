@@ -2,7 +2,7 @@ module AskAwesomely
   class ApiClient
 
     USER_AGENT = "leemachin/ask_awesomely; (v#{AskAwesomely::VERSION})"
-    BASE_URL = "https://api.typeform.com/"
+    BASE_URL = "https://api.typeform.com"
     ENDPOINTS = {
       root: "/",
       create_typeform: "/create",
