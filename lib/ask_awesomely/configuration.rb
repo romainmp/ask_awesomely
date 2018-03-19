@@ -10,12 +10,12 @@ module AskAwesomely
                   :aws_region,
                   :aws_bucket,
                   :logger
-    
+
     def typeform_api_key
       unless @typeform_api_key
-        raise ConfigurationError, "Typeform I/O API Key must be set before use, get one from <https://typeform.io>."
+        raise ConfigurationError, "Typeform API Key must be set before use, get one from <https://typeform.com>."
       end
-      
+
       @typeform_api_key
     end
 

@@ -2,12 +2,12 @@ module AskAwesomely
   class ApiClient
 
     USER_AGENT = "leemachin/ask_awesomely; (v#{AskAwesomely::VERSION})"
-    BASE_URL = "https://api.typeform.io/v0.4"
+    BASE_URL = "https://api.typeform.com/"
     ENDPOINTS = {
       root: "/",
-      create_typeform: "/forms",
+      create_typeform: "/create",
       create_picture: "/images",
-      create_design: "/designs"
+      create_design: "/themes"
     }
 
     def initialize
